@@ -1,0 +1,12 @@
+/* tạo 1 phần tử giả để tránh đầu cô gái lập trình dính vào navbar khi ghim thanh navbar luôn ở đầu trang khi cuộn trang bằng thuộc tính fixed-top  */
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
